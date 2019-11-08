@@ -1,5 +1,33 @@
 # Read Me
 
+
+# 快速体验
+
+## 获取本项目
+
+中国大陆
+```
+git clone https://gitee.com/doublechaintech/daas-start-kit.git
+```
+中国大陆以外
+```
+git clone https://github.com/doublechaintech/daas-start-kit.git
+```
+## 利用模板示例生成所有代码
+
+Windows
+```
+> cd daas-start-kit
+> .\gencode.bat .\bank.xml all
+```
+Linux&Mac OS
+```
+> cd daas-start-kit
+> ./gencode.sh bank.xml all
+```
+
+# 深入学习DaaS
+
 针对Daas start kit，我们提供了以下三份手册
 
 ## [DaaS Start Kit 环境配置与准备](https://docs.qq.com/doc/DTklDV2dNd0RBdEds)
