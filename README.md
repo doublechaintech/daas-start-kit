@@ -1,4 +1,4 @@
-# Read Me
+
 
 
 # 快速体验
@@ -13,14 +13,17 @@ git clone https://gitee.com/doublechaintech/daas-start-kit.git
 ```
 git clone https://github.com/doublechaintech/daas-start-kit.git
 ```
-## 利用模板示例生成所有代码
+## 利用示例的模型文件示例生成所有代码
 
-Windows
+系统支持windows，Mac和Linux
+
+
+Windows下
 ```
 > cd daas-start-kit
 > .\gencode.bat .\bank.xml all
 ```
-Linux&Mac OS
+Linux&MacOS下
 ```
 > cd daas-start-kit
 > ./gencode.sh bank.xml all
