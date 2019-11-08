@@ -29,6 +29,9 @@ Linux&MacOS下
 > ./gencode.sh bank.xml all
 ```
 
+生成的代码在bizui（React+Ant Design前端）, bizcore(Java后端）
+
+
 # 深入学习DaaS
 
 针对Daas start kit，我们提供了以下三份手册
