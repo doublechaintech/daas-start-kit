@@ -1,0 +1,10 @@
+version: '2'
+services:
+  daas-mysql:
+    extends:
+      file: mysql.yml
+      service: daas-mysql
+  daas-redis:
+    extends:
+      file: redis.yml
+      service: daas-redis

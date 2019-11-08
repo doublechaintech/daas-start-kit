@@ -1,0 +1,10 @@
+version: '2'
+services:
+  daas-redis:
+    image: redis
+    restart: 'always'
+    ports:
+      - 6379:6379
+    volumes:
+      - ~/daas-data/redis/:/data
+    command: ["redis-server", "--appendonly", "yes"]
