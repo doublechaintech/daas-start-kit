@@ -1,5 +1,26 @@
 # 快速体验
 
+## DaaS Start Kit 是什么
+
+DaaS 是成都双链科技开发的新一代低码平台，主要特性如下：
+
+* 只需要数行非常容易理解的xml文件，通过DaaS云平台就可以生成前后端代码（请参考bank.xml,his.xml)
+* 前端基于React+Ant Design+ Ant Design Pro
+* 后端基于Java 8， Spring Boot，自有Rest框架（CAF），JDBC Template
+* 缓存支持Redis和内存，SMTP Email支持
+* 内置支持Elastic Search
+* 支持Kafka事件流服务, 默认未打开
+* 支持一个用户访问多个App
+* 支持权限配置
+* 支持定制代码和生成代码目录分离，无需反复合并
+* 计划支持区块链、物联网语义模型
+* 支持数据行级权限控制（需结合双链科技IAM平台)
+
+例子请参考
+
+https://github.com/doublechaintech/retailscm-biz-suite
+
+
 ## 获取本项目
 
 中国大陆
