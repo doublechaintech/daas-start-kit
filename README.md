@@ -28,9 +28,15 @@ Linux&MacOS下
 > cd daas-start-kit
 > ./gencode.sh bank.xml all
 ```
+all 代表生成前端和后端，具体请查阅文档
 
 生成的代码在bizui（React+Ant Design前端）, bizcore(Java后端）
 
+
+Linux下的watch文件过多的解决方案
+```
+$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
 ## 请注意！匿名用户的模型文件最多在root下面有10个节点，包含root节点本身注册用户暂时没有限制
 
 ```
