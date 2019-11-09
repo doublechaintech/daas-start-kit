@@ -25,11 +25,12 @@ Linux&MacOS下
 $ cd daas-start-kit
 $ ./gencode.sh bank.xml all
 ```
-修复Linux的文件监控问题
+修复Linux的文件监控问题，如果不执行偶尔会导致 yarn start失败
 
 ```
 $ bash fixlinuxfilewatchers.sh
 ```
+
 
 生成的代码在bizui（React+Ant Design前端）, bizcore(Java后端）
 
