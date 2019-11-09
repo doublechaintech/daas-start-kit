@@ -48,6 +48,7 @@ Linux&MacOS下
   <od11 message="超过10个对于匿名用户不合法，od代表一个领域对象"/>
 </root>
 ```
+注册地址在这里 https://daas.doublechaintech.com/daas/daasService/registration/
 
 # 深入学习DaaS
 
