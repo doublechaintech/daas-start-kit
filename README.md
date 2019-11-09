@@ -31,6 +31,9 @@ Linux&MacOS下
 
 生成的代码在bizui（React+Ant Design前端）, bizcore(Java后端）
 
+## 请注意！匿名用户的模型文件最多在root下面有10个节点，注册用户暂时没有限制
+
+
 
 # 深入学习DaaS
 
