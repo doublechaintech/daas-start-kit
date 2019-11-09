@@ -31,9 +31,23 @@ Linux&MacOS下
 
 生成的代码在bizui（React+Ant Design前端）, bizcore(Java后端）
 
-## 请注意！匿名用户的模型文件最多在root下面有10个节点，注册用户暂时没有限制
+## 请注意！匿名用户的模型文件最多在root下面有10个节点，包含root节点本身注册用户暂时没有限制
 
-
+```
+<root>
+  <od1 />
+  <od2 />
+  <od3 />
+  <od4 />
+  <od5 />
+  <od6 />
+  <od7 />
+  <od8 />
+  <od9 />
+  <od10 />
+  <od11 message="超过10个对于匿名用户不合法，od代表一个领域对象"/>
+</root>
+```
 
 # 深入学习DaaS
 
