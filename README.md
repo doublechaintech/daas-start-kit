@@ -2,6 +2,25 @@
 
 # DaaS Start Kit 是什么
 
+核心特性： 滴水之恩，当涌泉相报
+
+```
+只是需要写简短易懂的一个xml文件，交给服务端处理后，生成可用的前后端具备的计算机源代码，文档和数据。
+
+<?xml version='1.0' ?>
+<root org="doublechaintech" 
+	chinese_name="医生排班系统" 
+	english_name="Doctor Scheduling System">
+
+    <hospital   
+        name="上和医院|[1,200]"  
+        address="毕升路22号" 
+        telephone="028-9123123" />
+	
+</root>  
+```
+参考医院系统，https://github.com/doublechaintech/his-biz-suite
+
 DaaS 是成都双链科技开发的新一代低码平台，主要特性如下：
 
 * 只需要数行非常容易理解的xml文件，通过DaaS云平台就可以生成前后端代码（请参考bank.xml,his.xml)
