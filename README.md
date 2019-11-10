@@ -5,6 +5,8 @@
 DaaS 是成都双链科技开发的新一代低码平台，主要特性如下：
 
 * 只需要数行非常容易理解的xml文件，通过DaaS云平台就可以生成前后端代码（请参考bank.xml,his.xml)
+* 支持变量拼写检查，如果不是英文单词，会给出警告
+* 支持变量数据库和开发语言关键字冲突检查，避免使用关键字，保持系统各个部分词汇一致
 * 前端基于React+Ant Design+ Ant Design Pro
 * 后端基于Java 8， Spring Boot，自有Rest框架（CAF），JDBC Template
 * 缓存支持Redis和内存，SMTP Email支持
