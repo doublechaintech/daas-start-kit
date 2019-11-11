@@ -107,3 +107,7 @@ $ bash fixlinuxfilewatchers.sh
 ## [DaaS 开发指南](https://docs.qq.com/doc/DTkxKYnhKV0R2amxr)
 
 在 daas 开发指南文档中，描述了如何使用daas start kit 开发Java部分的定制化代码。
+
+# 扫描二维码, 带上暗号 DaaS 获得种子用户优惠 ！
+
+![image](https://github.com/jarryscript/locker/blob/master/images/wechat_qr.jpeg?raw=true)
