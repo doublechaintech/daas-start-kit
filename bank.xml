@@ -1,79 +1,85 @@
-<root org="demo"
-      chinese_name="银行模拟平台"
-      english_name="银行模拟平台"
+<root org="doublechain"
+    chinese_name="银行模拟平台"
+    english_name="银行模拟平台"
 >
 
 
     <platform
-            name="银行模拟平台|银行模拟平台"
-
-            founded="now()"
-            _features="custom"
-
+        name="银行模拟平台|银行模拟平台"
+        founded="now()"
+        _features="custom"
+        
+        
     />
-
+    
     <change_request_type
-            name="存款|转账|取款|开户|改名"
-            code="DEPOSITE|TRANSFER|WITHDRAW|CREATE_ACCOUNT|CHANGE_NAME"
-            icon="download|swap|upload|account-book|edit"
-            display_order="1|2|3|4|5|6"
-            platform="$(platform)"
-            _features="cr_type"
-            _identified_by="code"
-    />
-
-
-    <!-- PENDING ACTION FROM WHOM -->
-
-    <change_request
-            name="存款|转账|取款|[1,50]"
-            create_time="createTime()"
-            remote_ip="remoteIp()"
-            request_type="$(change_request_type)"
-            platform="$(platform)"
-            _vg4platform="变更"
-            _features="change_request"
-    />
-
-    <transaction
-            name="存款交易|存款交易|取款交易|[1,50]"
-            from_account="$(account)"
-            to_account="$(account)"
-            amount="$123.00"
-            type="存款|存款|取款"
-            change_request="$(change_request)"
-            _features="event"
-
-    />
-    <name_change_event
-            name="new name|[1,50]"
-            account="$(account)"
-            change_request="$(change_request)"
-            _features="event"
-
-    />
-
-    <account
-            name="张三账户|李四账户|银行账户|[1,50]"
-            balance="$123000.00"
-            create_time="createTime()"
-            update_time="updateTime()"
-            platform="$(platform)"
-
-    />
-
-    <account_change
-            name="存款交易|存款交易|取款交易|[1,50]"
-            account="$(account)"
-
-            previous_balance="$1312.00"
-            type="存款|存款|取款"
-            amount="$12300.00"
-            current_balance="$1312.00"
-            change_request="$(change_request)"
-
-    />
-
-
-
+		name="存款|转账|取款|开户|改名"
+		code="DEPOSITE|TRANSFER|WITHDRAW|CREATE_ACCOUNT|CHANGE_NAME"
+		icon="download|swap|upload|account-book|edit"
+		display_order="1|2|3|4|5|6"
+		bind_types="text()"
+		step_configuration="text()"
+		platform="$(platform)"
+		_features="cr_type"
+		_identified_by="code"
+	/>
+	
+	
+	<!-- PENDING ACTION FROM WHOM -->
+    
+	<change_request
+		name="存款|转账|取款|[1,50]"
+		create_time="createTime()"
+		remote_ip="remoteIp()"
+		request_type="$(change_request_type)"
+		platform="$(platform)"
+		_vg4platform="变更"
+		_features="change_request"
+	/>
+	
+	<transaction
+		name="存款交易|存款交易|取款交易|[1,50]"
+		from_account="$(account)"
+		to_account="$(account)"
+		amount="$123.00"
+		type="存款|存款|取款"
+		change_request="$(change_request)"
+		_features="event"
+		
+		
+		
+		
+	/>
+	<name_change_event
+		name="new name|[1,50]"
+		account="$(account)"
+		change_request="$(change_request)"
+		_features="event"
+		
+	/>
+	
+	<account
+		name="张三账户|李四账户|银行账户|[1,50]"
+		balance="$123000.00"
+		create_time="createTime()"
+		update_time="updateTime()"
+		platform="$(platform)"
+		
+	
+	/>
+	
+	<account_change
+		name="存款交易|存款交易|取款交易|[1,50]"
+		account="$(account)"
+		
+		previous_balance="$1312.00"
+		type="存款|存款|取款"
+		amount="$12300.00"
+		current_balance="$1312.00"
+		change_request="$(change_request)"
+		
+	/>
+	
+	
+    
 </root>
