@@ -96,9 +96,9 @@ $ bash fixlinuxfilewatchers.sh
 
 针对Daas start kit，我们提供了以下三份手册
 
-#### [DaaS Start Kit 环境配置与准备](https://docs.qq.com/doc/DTklDV2dNd0RBdEds)
+#### [DaaS Start Kit 环境配置与准备](https://kdocs.cn/l/st71C0iyb?f=130)
 
-DaaS Start Kit 环境配置与准备文档地址：https://docs.qq.com/doc/DTklDV2dNd0RBdEds
+DaaS Start Kit 环境配置与准备文档地址：https://kdocs.cn/l/st71C0iyb?f=130
 
 在daas start kit 环境配置与准备文档中，我们描述了如何快速使用 dass start kit 工具包生成代码。
 
