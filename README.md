@@ -105,23 +105,27 @@ $ bash fixlinuxfilewatchers.sh
 
 # 深入学习DaaS
 
-针对Daas start kit，我们提供了以下三份手册
+针对Daas start kit的使用，我们提供了以下三份使用手册。
 
-#### [DaaS Start Kit 环境配置与准备](https://kdocs.cn/l/szyZtUsO4)
+|           文档名称            | 文档所在位置                                | 在线文档位置                       |                    其他位置                     |
+| :---------------------------: | :------------------------------------------ | ---------------------------------- | :---------------------------------------------: |
+| DaaS Start Kit 环境配置与准备 | ./docs/Daas-Start-Kit快速配置与开发准备.pdf | https://kdocs.cn/l/st71C0iyb?f=130 |                                                 |
+|        DaaS 概要与建模        | ./docs/DaaS概要与建模.pdf                   | https://kdocs.cn/l/sKrbw3KAP       |                                                 |
+|       DaaS 二次开发指南       | ./docs/DaaS-服务端Java-二次开发开发指南.pdf | https://kdocs.cn/l/sUdwkkyZD?f=130 | https://juejin.im/post/5e5db8bb5188254953720684 |
 
-DaaS Start Kit 环境配置与准备文档地址：https://kdocs.cn/l/szyZtUsO4
+
+
+
+
+### DaaS Start Kit 环境配置与准备
 
 在daas start kit 环境配置与准备文档中，我们描述了如何快速使用 dass start kit 工具包生成代码。
 
-#### [DaaS 概要与建模](https://kdocs.cn/l/sKrbw3KAP)
-
-DaaS 概要与建模文档地址：https://kdocs.cn/l/sKrbw3KAP
+### DaaS 概要与建模
 
 在 daas 概要与建模文档中，我们详细的描述了如何编写daas start kit工具包能够处理的XML 文件以及使用XML文件建模的高级特性。
 
-#### [DaaS 二次开发指南](https://kdocs.cn/l/sLV4pfUn0)
-
-Daas开发指南文档地址：https://kdocs.cn/l/sLV4pfUn0
+### DaaS 二次开发指南
 
 在 daas 开发指南文档中，描述了如何使用daas start kit 开发Java部分的定制化代码。
 
