@@ -107,9 +107,9 @@ $ bash fixlinuxfilewatchers.sh
 
 针对Daas start kit，我们提供了以下三份手册
 
-#### [DaaS Start Kit 环境配置与准备](https://kdocs.cn/l/st71C0iyb)
+#### [DaaS Start Kit 环境配置与准备](https://kdocs.cn/l/szyZtUsO4)
 
-DaaS Start Kit 环境配置与准备文档地址：https://kdocs.cn/l/st71C0iyb
+DaaS Start Kit 环境配置与准备文档地址：https://kdocs.cn/l/szyZtUsO4
 
 在daas start kit 环境配置与准备文档中，我们描述了如何快速使用 dass start kit 工具包生成代码。
 
@@ -119,9 +119,9 @@ DaaS 概要与建模文档地址：https://kdocs.cn/l/sKrbw3KAP
 
 在 daas 概要与建模文档中，我们详细的描述了如何编写daas start kit工具包能够处理的XML 文件以及使用XML文件建模的高级特性。
 
-#### [DaaS 开发指南](https://kdocs.cn/l/sUdwkkyZD)
+#### [DaaS 二次开发指南](https://kdocs.cn/l/sLV4pfUn0)
 
-Daas开发指南文档地址：https://kdocs.cn/l/sUdwkkyZD
+Daas开发指南文档地址：https://kdocs.cn/l/sLV4pfUn0
 
 在 daas 开发指南文档中，描述了如何使用daas start kit 开发Java部分的定制化代码。
 
