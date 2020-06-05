@@ -4,6 +4,8 @@
 
 把一个易于理解的XML文本，交给服务端，收获全栈开源的高质量代码。投以滴水，报以涌泉。DaaS Start Kit 是DaaS（Development as a Service）开源客户端，源代码在云端生成，本地进行定制开发，测试和部署的客户端工具。
 
+* 快速体验请访问 https://github.com/doublechaintech/daas-with-github-actions
+
 ## 输入
 只是需要写如下简短易懂的xml文件
 
