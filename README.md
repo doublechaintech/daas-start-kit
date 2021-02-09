@@ -2,7 +2,7 @@
 
 # DaaS Start Kit 是什么
 
-把一个易于理解的XML文本，交给服务端，收获全栈开源的高质量代码。投以滴水，报以涌泉。DaaS Start Kit 是DaaS（Development as a Service）开源客户端，源代码在云端生成，本地进行定制开发，测试和部署的客户端工具。
+DaaS是一个面向**大型软件开发系统**和**私有部署**的开发工具，通过上传一个易于理解的XML文本文件，收获包含极易定制的前端React、后端Java、数据和完整文档的完整系统工作区（Workspace）。投以滴水，报以涌泉。DaaS Start Kit 是DaaS（Development as a Service）开源客户端，源代码在云端生成，本地进行定制开发，测试和部署的客户端工具。
 
 * 利用Github Actions，只需要浏览器，就可以体验DaaS魅力，请访问 https://github.com/doublechaintech/daas-with-github-actions 体验一下
 
