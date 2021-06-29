@@ -30,6 +30,58 @@ his.xml
 
 ![Screen Shot](/images/playground.jpg)
 
+尝试输入 
+
+```
+<root org="doublechain"
+    chinese_name="Simple PIM v1.0"
+    english_name="Product Information Management"
+>
+    <platform
+        name="PIM"
+        founded="now()"
+        contact_number="992887654321"
+    />
+    <brand 
+        name="Candys|Sees"  
+        platform="platform()"/>
+    <product 
+        name="popcorn|chocklate" 
+        image="snack.jpg" 
+        brand="brand()"  
+        platform="platform()"/>
+    <sku 
+        name="sku" 
+        product="product()" 
+        brand="brand()" 
+        platform="platform()" 
+        create_time="createTime()"/>
+    <brand_type 
+        name="food|drink"
+        platform="platform()" 
+        _vg4platform="System Setting"
+        
+    />
+    <sku_type 
+        name="food|drink"
+        platform="platform()" 
+        _vg4platform="System Setting"
+
+    />
+    <user_type 
+        name="consumer|dealer"
+        platform="platform()" 
+        _vg4platform="System Setting"
+
+    />
+    
+</root>
+```
+可以体验
+* 菜单分组 _vg4platform="System Setting"
+* 自动图片生成
+* 实时界面更新
+* 更多功能，比如实时文档，统计，方案即将生成
 
 
 ## 处理
