@@ -25,6 +25,10 @@ his.xml
 </root>  
 ```
 
+### 在线练习
+
+
+![Screen Shot](/images/playground.jpg)
 
 
 
