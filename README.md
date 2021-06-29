@@ -25,7 +25,7 @@ his.xml
 </root>  
 ```
 
-### 在线练习
+### 在线练习(实时反馈，即将推出更多功能）
 
 
 ![Screen Shot](/images/playground.jpg)
