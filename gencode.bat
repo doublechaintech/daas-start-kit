@@ -17,5 +17,5 @@ if %scope% == "" (
   set scope=all
 )
 
-java -jar %PDIR%\daas-client\daas-client-all.jar %project% %scope% %PDIR% %modelFile% "https://daas.doublechaintech.com" %PDIR%\daas.tok
+java -jar -Djavax.net.debug=all -Djavax.net.ssl.trustStore=trustStore %PDIR%\daas-client\daas-client-all.jar %project% %scope% %PDIR% %modelFile% "https://daas.doublechaintech.com" %PDIR%\daas.tok
 @echo on
