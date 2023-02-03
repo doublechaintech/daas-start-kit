@@ -7,6 +7,29 @@ DaaS是一个面向**大型软件开发系统**和**私有部署**的开发工�
 * 利用Github Actions，只需要浏览器，就可以体验DaaS魅力，请访问 https://github.com/doublechaintech/daas-with-github-actions 体验一下
 * gradle 升级到了7.2，新项目需要使用gradle7.2编译
 
+# DaaS新特性TeaQL，用于支持大型复杂关联应用
+
+```java
+
+    Task task =Q.task(orderId) // 根据订单找到一个任务
+                .selectAll() // 取所有字段, 但是不包含子列表
+                .selectDropOffTaskItemList( // 选择所有的卸车任务
+                    Q.dropOffTaskItem() // 定制卸车任务
+                        .selectProduct() // 选择产品
+                        .selectCustomOrder( // 卸车任务上面还关联了一个订单
+                            Q.customOrder() // 定制订单选择
+                                .selectAll() // 选择订单所有字段
+                                .selectCustomOrderItemList() // 选择订单下面的订单项
+                                .selectDeliveryOrderAssetList( // 选择订单子列表下面的相关资产列表
+                                    Q.deliveryOrderAsset() // 定制订单资产列表
+                                        .selectAsset( // 选择资产对象
+                                            Q.asset() // 定制资产选择
+                                                .selectAssetStatus() // 状态要加上，便于显示资产状态
+                                                .where( // 把不合法的资产过滤出去
+                                                    Asset.ASSET_STATUS_PROPERTY,
+                                                    QueryOperator.NOT_EQUAL,
+                                                    AssetStatus.INVALID))))).execute(ctx);
+
 ## 输入
 只是需要写如下简短易懂的xml文件
 
