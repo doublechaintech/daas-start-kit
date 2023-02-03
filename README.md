@@ -29,6 +29,8 @@ DaaS是一个面向**大型软件开发系统**和**私有部署**的开发工�
                                                     Asset.ASSET_STATUS_PROPERTY,
                                                     QueryOperator.NOT_EQUAL,
                                                     AssetStatus.INVALID))))).execute(ctx);
+```
+
 
 ## 输入
 只是需要写如下简短易懂的xml文件
