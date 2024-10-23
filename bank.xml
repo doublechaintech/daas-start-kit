@@ -26,7 +26,7 @@
 		_identified_by="code"
 	/>
 	
-	
+	<merchant name="merchant name"  />	
 	<!-- PENDING ACTION FROM WHOM -->
     
 	<change_request
@@ -68,7 +68,6 @@
 		update_time="updateTime()"
 		platform="$(platform)"
 		
-		_features="merchant"
 		
 		
 	
