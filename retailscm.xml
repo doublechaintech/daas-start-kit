@@ -6,7 +6,7 @@
 
 >
 	
-	
+	<merchant name="merchant name"  />
 	<!--连锁店的拥有者-->
 	<retail_store_country_center
 		name='双链小超中国国运营中心|双链小超美国国运营中心|双链小超日本国运营中心|双链小超泰国国运营中心' 
